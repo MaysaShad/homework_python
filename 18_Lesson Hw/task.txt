@@ -1,0 +1,2 @@
+1. def function
+2. use return if you can
