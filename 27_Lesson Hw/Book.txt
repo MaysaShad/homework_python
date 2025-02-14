@@ -1,0 +1,40 @@
+in the previous chapter, you learned how to create and write to new files
+in python. your programs can also organize preexisting files on the hard
+drive. maybe you�ve had the experience of going through a folder full of
+dozens, hundreds, or even thousands of files and copying, renaming,
+moving, or compressing them all by hand. or consider tasks such as these:
+making copies of all pdf files (and only the pdf files) in every
+subfolder of a folder;
+removing the leading zeros in the filenames for every file in a folder
+of hundreds of files named spam001.txt, spam002.txt, spam003.txt, and so on;
+compressing the contents of several folders into one zip file (which
+could be a simple backup system) 
+all this boring stuff is just begging to be automated in python. by
+programming your computer to do these tasks, you can transform it into
+a quick-working file clerk who never makes mistakes.
+as you begin working with files, you may find it helpful to be able to
+quickly see what the extension (.txt, .pdf, .jpg, and so on) of a file is. 
+with macos and linux, your file browser most likely shows extensions
+automatically. with windows, file extensions may be hidden by default.
+to show extensions, go to start, control panel, appearance and
+personalization folder options. on the view tab, under advanced
+settings, uncheck the hide extensions for known file types checkbox.
+now that you know enough to write more complicated programs, you may start
+finding not-so-simple bugs in them. this chapter covers some tools and techniques
+for finding the root cause of bugs in your program to help you fix bugs faster and
+with less effort.
+to paraphrase an old joke among programmers, writing code accounts for 90
+percent of programming. debugging code accounts for the other 90 percent.
+your computer will do only what you tell it to do; it won�t read your mind and
+do what you intended it to do. even professional programmers create bugs all the
+time, so don�t feel discouraged if your program has a problem.
+fortunately, there are a few tools and techniques to identify what exactly your
+code is doing and where it�s going wrong. first, you will look at logging and
+assertions, two features that can help you detect bugs early. in general, the earlier
+you catch bugs, the easier they will be to fix.
+second, you will look at how to use the debugger. the debugger is a feature of
+mu that executes a program one instruction at a time, giving you a chance to
+inspect the values in variables while your code runs, and track how the values
+change over the course of your program. this is much slower than running thep
+program at full speed, but it is helpful to see the actual values in a program while it
+runs, rather than deducing what the values might be from the source code.
